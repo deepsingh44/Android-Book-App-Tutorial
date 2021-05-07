@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VivekCode</string>
+    <string name="title"><u><font color="red">Book</font> App <font color="red">Store</font></u></string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_addbook">Add Book</string>
+    <string name="menu_booklist">Book List</string>
+    <string name="menu_profile">ProfilePage</string>
+    <string name="menu_logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Education</item>
+        <item>Magazine</item>
+        <item>Science</item>
+        <item>Others</item>
+    </string-array>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDD9D9">
+
+    <include layout="@layout/background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Register Details"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:id="@+id/regname"
+            android:hint="Enter Name"
+            android:padding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="10dp"
+            android:hint="Enter Email"
+            android:id="@+id/regemail"
+            android:padding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/pass_icon"
+            android:drawablePadding="10dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:id="@+id/regpass"
+            android:padding="20dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Submit Here"
+            android:onClick="registerCodeHere"
+            android:background="@drawable/circle"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToLogin"
+        android:layout_marginBottom="100dp"
+        android:text="Already have an account? SignIn Here" />
+
+</RelativeLayout>

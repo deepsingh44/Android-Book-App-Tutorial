@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/background"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/mylogo"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/book" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+</RelativeLayout>
